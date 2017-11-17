@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'testing_goat.apps.TestingGoatConfig',
+    'todoer.apps.TestingGoatConfig',
 ]
 
 MIDDLEWARE = [
@@ -48,12 +48,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'python_tdd.urls'
+ROOT_URLCONF = 'testing_goat.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'testing_goat/templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'todoer/templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'python_tdd.wsgi.application'
+WSGI_APPLICATION = 'todoer.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases

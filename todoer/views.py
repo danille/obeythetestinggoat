@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from testing_goat.models import Item, List
+from todoer.models import Item, List
 
 
 # Create your views here.

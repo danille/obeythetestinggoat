@@ -4,4 +4,5 @@ __pycache__
 *.pyc
 .idea
 env
-testing_goat/migrations
+todoer/migrations
+todoer/static/bootstrap

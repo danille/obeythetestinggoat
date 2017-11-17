@@ -1,5 +1,5 @@
 from django.test import TestCase
-from testing_goat.models import Item, List
+from todoer.models import Item, List
 
 
 class HomePageTest(TestCase):
